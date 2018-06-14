@@ -15,7 +15,7 @@ beforeEach(() => {
         <Root initialState={initialState}>
             <CommentList/>
         </Root>
-    )
+    );
     wrapped.update();
 });
 
